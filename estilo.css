@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+@media only screen and (max-width:600px){
+        h1{
+            font-size: 40px;
+        }
+}
+
+
+/*Login*/   /*Login*/   /*Login*/   /*Login*/
+*{
+     box-sizing: border-box;
+}
+.Formulario{
+height: 800px;
+width: 500px;
+padding: 30px;
+margin-top: 15px;
+border: 1px solid black;
+border-radius: 20px;
+background: white;
+border: none;
+}
+
+
+
+
+.input{ 
+margin: 15px 0;
+}
+.input i{
+font-size: 23px;
+}
+.input i:hover{
+font-size: 27px;
+}
+.input label{
+padding-right:250px;
+font-size: 1.1em;
+display: block;
+padding-bottom:14px;
+font-family: 'Dosis', sans-serif;  
+}
+
+
+
+
+.link-esqueceu-senha{
+padding-left: 200px;
+text-decoration: none;
+color: rgba(0, 0, 0, 0.671);
+font-family: 'Roboto Condensed', sans-serif;
+}
+.link-esqueceu-senha:hover{
+color: rgb(133, 1, 167);
+}
+
+
+
+
+.botao-do-login{
+padding: 30px;
+margin-top: 10px;   
+}
+.botao-do-login a{
+text-decoration: none;
+border: 0 solid black;
+border-radius: 30px;
+padding: 10px 126px;
+font-size: 25px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+color: white;
+background-image: linear-gradient(to right, rgba(140, 15, 197, 0.808),rgb(173, 26, 124), rgb(74, 36, 240));
+}
+.botao-do-login a:hover{
+background-image: linear-gradient(to left, rgba(140, 15, 197, 0.808),rgb(173, 26, 124), rgb(74, 36, 240));
+}
+
+
+
+
+.apps p{
+padding-top: 5px;
+padding-bottom: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgba(0, 0, 0, 0.808);
+}
+.apps a{
+padding: 40px;
+text-decoration: none;
+border: 0 solid black;
+border-radius: 5px;
+padding: 5px 30px;
+color: rgba(255, 255, 255, 0.993);
+background: rgba(196, 14, 252, 0.582);
+}
+.apps a:hover{
+font-size: 21px;
+}
+
+
+
+
+.inscreva-se-normal p{
+padding-top:140px ;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgba(0, 0, 0, 0.849);
+}
+.inscreva-se-normal a{
+padding-top: 10px;
+text-decoration: none;
+color: rgba(0, 0, 0, 0.781);
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+/*Cadastro*/   /*Cadastro*/   /*Cadastro*/   /*Cadastro*/
+#form{
+height: 570px;
+width: 450px;
+padding: 30px;
+border: 1px solid black;
+border-radius: 20px;
+background: white;
+border: none;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
+
+.label2{
+padding-right: 250px;
+margin-left: 40px;
+font-family: 'Dosis', sans-serif; 
+color: rgb(0, 0, 0);
+font-size: 1.1em;
+}
+.label2:hover{
+color: rgb(133, 1, 167);  
+font-size: 20px;
+}
+.input2{
+margin: 15px 0px;
+border: 1px solid black;
+border-radius: 30px;
+margin-left: 20px;
+}
+
+
+
+
+.btn{
+border: px solid black;
+border-radius: 30px;
+background: white;
+padding: 15px 10px;
+height: 55px;
+width: 270px;
+margin-left: 70px;
+text-align: center;
+background-image: linear-gradient(to right, rgba(140, 15, 197, 0.808),rgb(173, 26, 124), rgb(74, 36, 240));
+}
+.btn:hover{
+background-image: linear-gradient(to left, rgba(140, 15, 197, 0.808),rgb(173, 26, 124), rgb(74, 36, 240));
+}
+.btn a{
+color: black;
+text-decoration: none;
+color: white;
+font-size:25px ;
+font-family: 'Roboto Condensed', sans-serif;
+}

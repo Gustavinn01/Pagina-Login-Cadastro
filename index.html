@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        text-align: center;
+       /* background-image:linear-gradient(to right ,rgba(0, 197, 164, 0.808), rgb(3, 143, 161));*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./background-layer.png);
+    }
+    h1{
+      font-size: 50px;
+      color: rgba(0, 0, 0, 0.863);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+
+
+<body>
+     
+  <form class="Formulario">
+     <h1>Login</h1>
+
+     <!--Parte do "Nome do Usuário"-->
+    <div class="input">
+     <label for="nome">Usuário</label>
+     <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+     <input type="text"  id="nome" name="nome" placeholder="Digite seu nome de usuário" required style= "width: 350px; height: 50px; padding: 12px; border: 1px solid rgba(0, 0, 0, 0.541); border-radius: 30px;" > 
+    </div>
+
+     <!--Parte da "Senha"-->
+    <div class="input">
+     <label for="senha">Senha</label>
+     <i class="fa fa-lock" aria-hidden="true" ></i>
+     <input type="password" id="senha" name="senha" placeholder="Digite sua senha" style= "width: 350px; height: 50px; padding: 12px; border: 1px solid rgba(0, 0, 0, 0.541); border-radius: 30px;">
+    </div>
+
+     <!--Parte da "Recuperação de Senha"-->
+    <div>
+     <a href="#" class="link-esqueceu-senha">Esqueceu sua senha?</a>
+    </div>
+
+     <!--Parte do "Botão de Login"-->
+    <div class="botao-do-login">
+     <a href="#">Login</a>
+    </div>
+
+     <!--Parte do "Inscreva-se com apps"-->
+    <div class="apps">
+     <p>Ou cadastre-se usando</p>
+     <a href="#">Google</a>
+    </div>
+
+     <!--Parte do "Inscreva-se"-->
+    <div class="inscreva-se-normal">
+      <p>Ou cadastre-se usando</p>
+      <a href="cadastro.html">INSCREVA-SE</a>
+    </div>
+   
+
+
+
+
+  </form>
+</body>
+</html>

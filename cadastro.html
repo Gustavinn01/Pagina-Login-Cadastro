@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+  <style>
+    body{
+      background-image: url(./background-layer.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+        
+    }
+    h2{
+      font-size: 50px;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-bottom: 33px;
+      margin-top: 1px;
+    }
+  </style>
+
+<body>
+<div>
+    <form id="form">
+        <h2>Cadastro</h2>
+        <div>
+         <label class="label2" for="nome">Usuário</label>
+         <input class="input2" type="text" id="nome" name="nome" placeholder="usuário"  style= "width: 350px; height: 50px; padding: 12px;" required>
+        </div>
+
+        <div>
+         <label class="label2" for="email">Email</label>
+         <input class="input2" type="text" id="email" name="email" placeholder="email"  style= "width: 350px; height: 50px; padding: 12px;" required>
+        </div>
+
+        <div>
+         <label class="label2" for="senha">Senha</label>
+         <input class="input2" type="password" id="senha" name="senha" placeholder="senha"  style= "width: 350px; height: 50px; padding: 12px;" required><br><br>
+        </div>
+
+        <div class="btn">
+          <a onclick="btnn()" href="index.html">Cadastrar</a>
+        </div>
+        <script>
+          function btnn(){
+                 alert("Cadastro feito com sucesso!");
+          }
+        </script>
+    </form>
+</div>
+
+    
+</body>
+</html>
